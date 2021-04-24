@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: "Merriweather", serif;
   color: #40514e;
+
 }
 
 p {
@@ -36,6 +37,7 @@ hr {
   margin: 100px auto;
   /* border-top: none; */
 }
+
 a {
   color: #eaf6f6;
   font-family: "Montserrat", sans-serif;
@@ -46,6 +48,7 @@ a {
 a:hover {
   color: #11999e;
 }
+
 /* ---------------------------------------------CLASS SELECTORr---------------------------------------------- */
 .top-container {
   background-color: #e4f9f5;
@@ -58,20 +61,21 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #66bfbf;
+  background-color: #66BFBF;
   padding: 50px 0 20px;
+  margin-bottom: -100px;
 }
 
 .bottom-cloud {
   position: absolute;
-  bottom: 260px;
-  left: 250px;
+  bottom: 200px;
+  left: 230px;
 }
 
 .top-cloud {
   position: absolute;
   top: 40px;
-  right: 250px;
+  right: 230px;
 }
 
 .underline {
@@ -105,27 +109,32 @@ a:hover {
   float: left;
   margin-right: 30px;
 }
+
 .e21design {
   width: 25%;
   float: right;
   margin-right: 30px;
 }
+
 .upwork {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+
 .react {
   width: 25%;
   float: right;
   margin-right: 35px;
 }
+
 .mern {
   width: 25%;
   float: left;
   margin-right: 30px;
   margin-bottom: 10px;
 }
+
 .webdesign {
   width: 25%;
   float: right;
