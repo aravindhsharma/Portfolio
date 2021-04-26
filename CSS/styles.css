@@ -190,3 +190,33 @@ a:hover {
   font-size: 0.75rem;
   color: #11999e;
 }
+
+@media (max-width:600px) {
+  .mountain {
+    width: 250px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    bottom: 120px;
+    left: 220px;
+    width: 50px;
+  }
+
+  .top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 220px;
+    width: 50px;
+  }
+
+  h1 {
+    margin: 50px auto 0 auto;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 25px;
+    padding: 5px;
+  }
+}
